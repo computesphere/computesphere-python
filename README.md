@@ -24,7 +24,7 @@ from computesphere_api_client import AuthenticatedClient
 from computesphere_api_client.api.regions import list_regions
 
 client = AuthenticatedClient(
-    base_url="https://api.computesphere.com/api/v2",
+    base_url="https://api.computesphere.com/v2",
     token=os.environ["COMPUTESPHERE_API_TOKEN"],
 )
 
